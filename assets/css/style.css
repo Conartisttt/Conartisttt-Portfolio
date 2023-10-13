@@ -1,0 +1,126 @@
+body {
+    background-color: gray;
+    margin: 50px;
+}
+
+header {
+    margin-bottom: 160px;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 75px;
+}
+
+header img {
+    height: 200px;
+    border-radius: 50px;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul button {
+    border-radius: 12px;
+    padding: 5px;
+    background-image: linear-gradient(yellow, gray);
+}
+
+nav ul button:hover {
+    box-shadow: 0 0 50px 5px #bce048;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+
+#aboutme {
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 30px;
+    color: yellow;
+    margin-bottom: 10px;
+}
+
+#mywork {
+    margin-top: 30px;
+}
+
+.maincard {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.maincard .container {
+    /* height: 300px;
+    width: 900px; */
+    width: 90%;
+    height: 300px;
+    margin-bottom: 5px;
+}
+
+.subcards {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.img-main {
+    background-image: url(../images/architect.webp);
+    background-size: cover;
+}
+
+.img-one {
+    background-image: url(../images/hallway.jpg);
+    background-size: cover;
+}
+
+.img-two {
+    background-image: url(../images/Matrix\ Code.webp);
+    background-size: cover;
+}
+
+.img-three {
+    background-image: url(../images/neo.jpeg);
+    background-size: cover;
+}
+
+.subcards .container {
+    /* height: 200px;
+    width: 300px; */
+    width: 30%;
+    height: 200px;
+}
+
+.subcards img {
+    max-width: 100%;
+}
+
+h3 {
+    position: absolute;
+    color: yellow;
+    background-color: gray;
+    padding: 10px;
+    top: 0px;
+    border-radius: 0px 0px 10px;
+}
+
+#contactme {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#contactme ul {
+    display: flex;
+    justify-content: space-between;
+}
