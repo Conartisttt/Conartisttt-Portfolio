@@ -14,18 +14,22 @@ The following images show the web application's appearance and functionality:
 <br />
 * Desktop
 <br />
+
 ![desktop demo](./assets/images/screenshots/desktop.png)
 <br />
 * Tablet
 <br />
+
 ![tablet demo](./assets/images/screenshots/tablet.png)
 <br />
 * Large Phone
 <br />
+
 ![large phone demo](./assets/images/screenshots/lgphone.png)
 <br />
 * Small Phone
 <br />
+
 ![small phone demo](./assets/images/screenshots/smphone.png)
 
 
