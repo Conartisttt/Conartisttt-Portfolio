@@ -1,3 +1,4 @@
+/* CSS Variables */
 :root {
     --light: rgb(246, 255, 0);
     --dark: rgb(85, 85, 85);
@@ -8,8 +9,22 @@ body {
     margin: 10px;
 }
 
+/* Header */
 header {
     margin-bottom: 50px;
+}
+
+header img {
+    height: 200px;
+    border-radius: 50px;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+
+header img:hover {
+    transform: rotateY(180deg);
+    transition: 0.8s;
 }
 
 h1 {
@@ -22,11 +37,19 @@ h1 {
     color: var(--light)
 }
 
+/* Naviagtion Bar */
 nav ul {
     display: flex;
     justify-content: space-evenly;
 }
 
+nav ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+
+/* Buttons */
 button {
     border-radius: 12px;
     padding: 5px;
@@ -37,16 +60,12 @@ button:hover {
     box-shadow: 0 0 30px 5px #bce048;
 }
 
-nav ul a {
-    text-decoration: none;
-    color: black;
-    font-size: 40px;
-}
-
-#aboutme {
+/* Sections spacing */
+#aboutme, #mywork, #contactme, footer {
     margin-top: 30px;
 }
 
+/* Sub Headings */
 h2 {
     font-family: monospace;
     font-size: 30px;
@@ -58,10 +77,14 @@ h2 {
     border-radius: 0px 0px 20px;
 }
 
-#mywork {
-    margin-top: 30px;
+/* About Me Section */
+#aboutme p {
+    font-family: monospace;
+    font-size: 14px;
+    font-style: italic;
 }
 
+/* My Work Portfolio Section */
 .container:hover {
     box-shadow: 0 0px 15px 5px #bce048;
 }
@@ -136,11 +159,7 @@ h3 {
     border-radius: 0px 0px 10px;
 }
 
-#contactme {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
+/* Contact Me Section */
 #contactme ul {
     display: flex;
     justify-content: space-evenly;
@@ -151,6 +170,8 @@ h3 {
     text-decoration: none;
 }
 
+
+/* Footer */
 footer {
     color: var(--light);
     padding: 30px;
@@ -160,6 +181,7 @@ footer {
     border-radius: 0px 0px 50px;
 }
 
+/* Tablet */
 @media screen and (max-width: 992px) {
     header {
         text-align: center;
