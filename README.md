@@ -11,9 +11,18 @@ My deployed application can be found ![here](link to deployed application)
 * CSS Variables
 
 The following images show the web application's appearance and functionality:
-![desktop demo](insert ./assets link here)
-![tablet demo](insert ./assets link here)
-![phone demo](insert ./assets link here)
+<br />
+* Desktop
+![desktop demo](./assets/images/screenshots/desktop.png)
+<br />
+* Tablet
+![tablet demo](./assets/images/screenshots/tablet.png)
+<br />
+* Large Phone
+![large phone demo](./assets/images/screenshots/lgphone.png)
+<br />
+* Small Phone
+![small phone demo](./assets/images/screenshots/smphone.png)
 
 
 ## Technologies Used
@@ -36,15 +45,17 @@ The following images show the web application's appearance and functionality:
 * Links to how to contact me
 <!-- DONE -->
 * Navigation bar that when link is clicked, UI scrolls to the corresponding section
-
+<!-- DONE -->
 * When link to section about my work is clicked, UI scrolls to section with titled images of my applications
-
+<!-- DONE -->
 * First application is larger in size than the others
-
+<!-- DONE -->
 * When images of applications are clicked, user is taken to that deployed application
-
+<!-- DONE -->
 * When page is resized on various screen sizes and devices, layout is responsive
-
+<!-- DONE -->
 * Add quality comments
+
 * Add link to deployed application
+<!-- DONE -->
 * Add screenshots of application
