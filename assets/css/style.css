@@ -1,3 +1,8 @@
+:root {
+    --light: rgb(246, 255, 0);
+    --dark: rgb(85, 85, 85);
+}
+
 body {
     background-color: gray;
     margin: 10px;
@@ -11,23 +16,10 @@ h1 {
     font-family: monospace;
     font-size: 75px;
     display: inline-block;
-    background-color: rgb(85, 85, 85);
+    background-color: var(--dark);
     padding: 40px;
     border-radius: 0px 0px 50px;
-    color: yellow;
-}
-
-header img {
-    height: 200px;
-    border-radius: 50px;
-    position: absolute;
-    top: 10px;
-    right: 50px;
-}
-
-header img:hover {
-    transform: rotateY(180deg);
-    transition: 0.8s;
+    color: var(--light)
 }
 
 nav ul {
@@ -38,7 +30,7 @@ nav ul {
 button {
     border-radius: 12px;
     padding: 5px;
-    background-image: linear-gradient(yellow, gray);
+    background-image: linear-gradient(var(--light), var(--dark));
 }
 
 button:hover {
@@ -58,10 +50,10 @@ nav ul a {
 h2 {
     font-family: monospace;
     font-size: 30px;
-    color: yellow;
+    color: var(--light);
     margin-bottom: 10px;
     display: inline-block;
-    background-color: rgb(85, 85, 85);
+    background-color: var(--dark);
     padding: 10px;
     border-radius: 0px 0px 20px;
 }
@@ -137,7 +129,7 @@ h3 {
     font-family: monospace;
     font-size: 15px;
     position: absolute;
-    color: yellow;
+    color: var(--light);
     background-color: gray;
     padding: 10px;
     top: 0px;
@@ -160,11 +152,11 @@ h3 {
 }
 
 footer {
-    color: yellow;
+    color: var(--light);
     padding: 30px;
     text-align: center;
     font-family: monospace;
-    background-color: rgb(85, 85, 85);
+    background-color: var(--dark);
     border-radius: 0px 0px 50px;
 }
 
@@ -182,7 +174,7 @@ footer {
     }
 }
 
-/* Large smartphones - navbar changes color */
+/* Large smartphones */
 @media screen and (max-width: 768px) {
     nav ul {
         flex-direction: column;
@@ -204,18 +196,22 @@ footer {
         display: flex;
     }
 
-.container.img-two > h3 {
+    .container.img-two>h3 {
         top: 210px;
     }
 
-    .container.img-three > h3 {
+    .container.img-three>h3 {
         top: 420px;
     }
 }
 
-/* Small smartphones - image placeholders change color */
+/* Small smartphones */
 @media screen and (max-width: 576px) {
     h1 {
         font-size: 40px;
+    }
+
+    #contactme, #mywork, #aboutme {
+        text-align: center;
     }
 }
